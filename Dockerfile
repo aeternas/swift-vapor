@@ -9,4 +9,5 @@ RUN apt-get -y update && apt-get install -y \
 RUN cd ~ \
   && git clone https://github.com/qutheory/vapor \
   && cd vapor \
-  && git checkout swift-2-2
+  && git checkout swift-2-2 \
+  && make install
