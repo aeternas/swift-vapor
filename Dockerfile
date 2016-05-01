@@ -1,7 +1,6 @@
 FROM swiftlang/swift:latest
 
 RUN apt-get -y update && apt-get install -y \
-  man \
   build-essential \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
