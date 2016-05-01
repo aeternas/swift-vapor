@@ -10,4 +10,4 @@ RUN cd ~ \
   && cd vapor \
   && git checkout swift-2-2
 
-CMD cd ~\vapor
+CMD cd ~/vapor
