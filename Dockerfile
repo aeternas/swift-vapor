@@ -3,6 +3,7 @@ FROM swiftlang/swift:latest
 RUN apt-get -y update && apt-get install -y \
   build-essential \
   man \
+  vim \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
