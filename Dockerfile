@@ -8,7 +8,3 @@ RUN apt-get -y update && apt-get install -y \
 
 RUN cd ~ \
   && git clone https://github.com/qutheory/vapor.git \
-  && cd vapor \
-  && cp vapor /usr/local/bin/vapor \
-  && cd .. \
-  && rm -rf vapor
